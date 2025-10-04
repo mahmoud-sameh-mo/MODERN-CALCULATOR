@@ -1,0 +1,12 @@
+my mind map 
+{
+1- add HTML FOR calculator.()
+2- add dummy DATA.(DONE)
+3-add CSS STYLING.(DONE)
+4-DELETE the DUMMY DATA.(DONE)
+5-add our JS opration{
+1-append value.()
+2-clear All.()
+3-CLear one number.()
+4-calculate opration.()
+5-make sure if be mistakes like two opration().}}
