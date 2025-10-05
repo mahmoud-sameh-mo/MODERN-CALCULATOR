@@ -99,3 +99,79 @@ button.equal {
   background: #fff;
   color: #111;
 }
+/* 📱 موبايل */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    left: 0;
+    padding: 10px;
+    height: auto;
+    overflow: auto;
+  }
+
+  .calculator {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
+  .display {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(4, 1fr); /* الأزرار متساوية */
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .but button,
+  .buti button,
+  .effect button {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .history {
+    width: 100%;
+    height: 200px;
+    right: 0;
+    margin-top: 20px;
+  }
+}
+
+/* 📟 تابلت */
+@media (max-width: 900px) and (min-width: 601px) {
+  .calculator {
+    width: 80%;
+    left: 0;
+  }
+
+  .display {
+    font-size: 1.8rem;
+  }
+
+  .history {
+    width: 80%;
+    margin: 20px auto;
+    right: 0;
+  }
+}
+
+/* 💻 شاشات كبيرة */
+@media (min-width: 901px) {
+  .calculator {
+    width: 300px;
+  }
+
+  .display {
+    font-size: 2rem;
+  }
+}
